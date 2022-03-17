@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+}
+
+form{
+    font-size: 30px;
+  
+    display: flex;
+    justify-content: center;
+   
+}
+body{
+  background-image: url(img/394341-luca-movie-characters-4k-pc-wallpaper.jpg);
+  background-position: center;
+  
+}
+
+
+  .filter_todo{
+    font-size: 25px;
+    background-color:goldenrod;
+    color: aliceblue;
+  }
+
+  .filter_todo:hover{
+    color:black;
+    background-color: white;
+  }
+
+  .todo_btn{
+    background-color: white;
+    border: 0px solid white;
+    border-radius: -2px;
+  }
+
+  .todo_btn:hover{
+    background-color: black;
+    color: white;
+  }

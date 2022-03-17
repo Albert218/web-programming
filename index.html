@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>JavaScript Class</title> 
+</head>
+<body>
+    <header>
+        <h1>To Do List</h1>
+    </header>
+    <!----A form-->
+    <form>
+        <input type="text" class="todo-input">
+    <button class="todo_btn" type="submit">
+        <!--icons using font awesome-->
+        <i class="fa-solid fa-circle-plus"></i>
+    </button>
+
+        <!--drop down menu-->
+        <div class="drop">
+            <select name="" class="filter_todo">
+                <option value="">All</option>
+                <option value="">Completed</option>
+                <option value="">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="todo_container">
+        <ul class="todo_list">
+        </ul>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
